@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Brick & Figures - Sklep kolekcjonerski</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAGLOWEK -->
+    <header>
+      <div class="logo">BRICK <span>&</span>SHOP</div>
+
+      <nav>
+        <a href="#">Strona główna</a>
+        <a href="#">Zestawy</a>
+        <a href="#">Figurki</a>
+        <a href="#">Tematyka</a>
+        <a href="#">Pojedyncze klocki</a>
+        <a href="#">Kolekcjonerskie</a>
+        <a href="#">Nowości</a>
+        <a href="#">Ostatnie sztuki</a>
+        <a href="#">Kontakt</a>
+      </nav>
+
+      <div class="header-icons">
+        <button aria-label="Wyszukaj">⌕</button>
+        <button aria-label="Koszyk">🛒 <span id="cart-count">0</span></button>
+      </div>
+    </header>
+
+    <!-- BANER -->
+    <section class="hero">
+      <img src="images/sklep.jpg" alt="Kolekcja figurek i zestawów" />
+
+      <div class="hero-content">
+        <h1>Odkryj świat kolekcjonowania!</h1>
+        <p>Figurki, zestawy i wyjątkowe kolekcje w jednym miejscu.</p>
+        <a href="#kategorie" class="hero-button">Zobacz ofertę</a>
+      </div>
+    </section>
+
+    <!-- KATEGORIE -->
+    <section class="categories" id="kategorie">
+      <h2>Odkryj nasze kategorie</h2>
+
+      <div class="category-grid">
+        <a href="#" class="category-card">
+          <img src="images/figurki.jpg" alt="Figurki" />
+          <h3>Figurki</h3>
+        </a>
+
+        <a href="#" class="category-card">
+          <img src="images/zestawy.jpg" alt="Zestawy" />
+          <h3>Zestawy LEGO</h3>
+        </a>
+
+        <a href="#" class="category-card">
+          <img src="images/star-wars.jpg" alt="Star Wars" />
+          <h3>Star Wars</h3>
+        </a>
+
+        <a href="#" class="category-card">
+          <img src="images/kolekcjonerskie.jpg" alt="Kolekcjonerskie" />
+          <h3>Kolekcjonerskie</h3>
+        </a>
+      </div>
+    </section>
+
+    <!-- POLECANE PRODUKTY -->
+    <section class="products">
+      <div class="section-heading">
+        <h2>Polecane produkty</h2>
+
+        <div class="carousel-buttons">
+          <button id="prev-btn" aria-label="Poprzednie produkty">❮</button>
+          <button id="next-btn" aria-label="Następne produkty">❯</button>
+        </div>
+      </div>
+
+      <div class="product-carousel" id="product-carousel">
+        <article class="product-card">
+          <img src="images/produkt1.jpg" alt="Produkt 1" />
+          <h3>Figurka kolekcjonerska</h3>
+          <p class="price">49,99 zł</p>
+          <button class="add-to-cart">Dodaj do koszyka</button>
+        </article>
+
+        <article class="product-card">
+          <img src="images/produkt2.jpg" alt="Produkt 2" />
+          <h3>Zestaw LEGO</h3>
+          <p class="price">199,99 zł</p>
+          <button class="add-to-cart">Dodaj do koszyka</button>
+        </article>
+
+        <article class="product-card">
+          <img src="images/produkt3.jpg" alt="Produkt 3" />
+          <h3>Figurka limitowana</h3>
+          <p class="price">89,99 zł</p>
+          <button class="add-to-cart">Dodaj do koszyka</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- STOPKA -->
+    <footer>
+      <p>Brick & Figures © 2026</p>
+      <p>Sklep dla miłośników figurek i klocków.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
